@@ -44,7 +44,6 @@ if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
 
 function navBar(){
     document.getElementById("navbar").style.display = "block";
-    document.getElementById("scrollup").style.display = "block";
     //const timerID = setTimeout(myGreetings, 2000); 
 }
 
