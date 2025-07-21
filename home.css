@@ -233,6 +233,7 @@ li{
     right: 10px;
     bottom: 15px;
     display: none;
+    transition: 0.5s ease-in-out;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
 }
 
