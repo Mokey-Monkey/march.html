@@ -27,12 +27,6 @@ if(document.body.scrollTop >  80 || document.documentElement.scrollTop > 80){doc
 
 if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
   document.getElementById("scrollup").style.display = "block";
-}else{
-  document.getElementById("scrollup").style.display = "none";
-}
-
-if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
-  document.getElementById("scrollup").style.display = "block";
   document.getElementById("scrollup").style.right = "10px";
 }else{
   document.getElementById("scrollup").style.display = "block";
